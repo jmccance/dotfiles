@@ -1,0 +1,99 @@
+" Setup {{{
+set nocompatible              " be iMproved, required
+filetype off                  " required
+" }}}
+
+" Plugins {{{
+  " set the runtime path to include Vundle and initialize
+  set rtp+=~/.vim/bundle/Vundle.vim
+  call vundle#begin()
+
+  " let Vundle manage Vundle, required
+  Plugin 'VundleVim/Vundle.vim'
+
+  " UI
+  Plugin 'airblade/vim-gitgutter'
+  Plugin 'ctrlpvim/ctrlp.vim'
+  Plugin 'scrooloose/nerdtree'
+  Plugin 'vim-airline/vim-airline'
+  Plugin 'vim-airline/vim-airline-themes'
+
+  " Syntax
+  Plugin 'plasticboy/vim-markdown'
+  Plugin 'hashivim/vim-terraform'
+  Plugin 'w0rp/ale'
+
+  Plugin 'Shougo/vimproc'
+
+  " Haskell
+  Plugin 'eagletmt/ghcmod-vim'
+
+  " All of your Plugins must be added before the following line
+  call vundle#end()            " required
+  filetype plugin indent on    " required
+" }}}
+
+" Misc {{{
+  " Enable intelligent indent
+  filetype indent plugin on
+
+  " Enable syntax highlighting
+  syntax on
+
+  " Better command-line completion
+  set wildmenu
+
+  " Show partial commands in the last line of the screen
+  set showcmd
+
+  " Use case-insensitive search
+  set ignorecase
+  set smartcase
+
+  " Allow backspacing over autoindent, line breaks, start of insert
+  set backspace=indent,eol,start
+
+  set ruler
+
+  set mouse=a
+
+  set number
+
+  set shiftwidth=2
+  set softtabstop=2
+  set expandtab
+
+  set breakindent
+  set breakindentopt=shift:2
+" }}}
+
+" Wrapping {{{
+  set wrap
+  set linebreak
+  set breakindent
+  set breakindentopt=shift:2
+" }}}
+
+" Folds {{{
+  set foldlevelstart=20
+" }}}
+
+" Airline {{{
+  let g:airline_powerline_fonts = 1
+  let g:airline_theme = 'solarized'
+  let g:airline_solarized_big = 'dark'
+  let g:airline#extensions#ale#enabled = 1
+" }}}
+
+" Haskell {{{
+  nnoremap <Leader>ht :GhcModType<cr>
+  nnoremap <Leader>htc :GhcModTypeClear<cr>
+" }}}
+
+" Git {{{
+  set updatetime=250
+" }}}
+
+set modelines=1
+
+" vim:foldmethod=marker:foldlevel=0
