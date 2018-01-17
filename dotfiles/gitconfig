@@ -1,0 +1,11 @@
+[user]
+	name = Joel McCance
+	email = jmccance@gmail.com
+[core]
+	editor = vim
+[credential]
+	helper = osxkeychain
+[rebase]
+	autosquash = true
+[push]
+	default = current
