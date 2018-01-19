@@ -11,6 +11,8 @@ filetype off                  " required
   " let Vundle manage Vundle, required
   Plugin 'VundleVim/Vundle.vim'
 
+  Plugin 'tpope/vim-sensible'
+
   " UI
   Plugin 'airblade/vim-gitgutter'
   Plugin 'ctrlpvim/ctrlp.vim'
@@ -31,7 +33,6 @@ filetype off                  " required
 
   " All of your Plugins must be added before the following line
   call vundle#end()            " required
-  filetype plugin indent on    " required
 " }}}
 
 " Misc {{{
@@ -41,20 +42,12 @@ filetype off                  " required
   " Enable syntax highlighting
   syntax on
 
-  " Better command-line completion
-  set wildmenu
-
   " Show partial commands in the last line of the screen
   set showcmd
 
   " Use case-insensitive search
   set ignorecase
   set smartcase
-
-  " Allow backspacing over autoindent, line breaks, start of insert
-  set backspace=indent,eol,start
-
-  set ruler
 
   set mouse=a
 
