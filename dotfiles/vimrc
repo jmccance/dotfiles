@@ -15,6 +15,7 @@ filetype off                  " required
   Plugin 'airblade/vim-gitgutter'
   Plugin 'ctrlpvim/ctrlp.vim'
   Plugin 'scrooloose/nerdtree'
+  Plugin 'Xuyuanp/nerdtree-git-plugin'
   Plugin 'vim-airline/vim-airline'
   Plugin 'vim-airline/vim-airline-themes'
 
@@ -67,15 +68,32 @@ filetype off                  " required
   set breakindentopt=shift:2
 " }}}
 
+" Folds {{{
+  set foldlevelstart=20
+" }}}
+
+" NERDTree {{{
+  map <C-B> :NERDTreeToggle<CR>
+
+  " Open NERDTree by default
+  autocmd StdinReadPre * let s:std_in=1
+  autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+  " Simplify the UI
+  let NERDTreeMinimalUI = 1
+  let NERDTreeDirArrows = 1
+" }}}
+
+" Splits {{{
+  set splitbelow
+  set splitright
+" }}}
+
 " Wrapping {{{
   set wrap
   set linebreak
   set breakindent
   set breakindentopt=shift:2
-" }}}
-
-" Folds {{{
-  set foldlevelstart=20
 " }}}
 
 " Airline {{{
