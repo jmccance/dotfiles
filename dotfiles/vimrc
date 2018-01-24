@@ -54,9 +54,6 @@ filetype off                  " required
   set shiftwidth=2
   set softtabstop=2
   set expandtab
-
-  set breakindent
-  set breakindentopt=shift:2
 " }}}
 
 " Folds {{{
