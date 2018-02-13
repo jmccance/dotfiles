@@ -29,6 +29,16 @@ filetype off                  " required
   " Haskell
   Plugin 'eagletmt/ghcmod-vim'
 
+  Plugin 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+
+  "Plugin 'roxma/nvim-completion-manager'
+
+  " ReasonML
+  Plugin 'reasonml-editor/vim-reason-plus'
+
   " All of your Plugins must be added before the following line
   call vundle#end()            " required
 " }}}
@@ -54,6 +64,15 @@ filetype off                  " required
   set shiftwidth=2
   set softtabstop=2
   set expandtab
+" }}}
+
+" Language Server Protocol {{{
+
+  let g:LanguageClient_serverCommands = {
+      \ 'reason': ['ocaml-language-server', '--stdio'],
+      \ 'ocaml': ['ocaml-language-server', '--stdio'],
+      \ }
+
 " }}}
 
 " Folds {{{
