@@ -9,9 +9,10 @@ jmccance.dotfiles
   - [tpm](https://github.com/tmux-plugins/tpm)
 - vim
   - [Vundle](https://github.com/VundleVim/Vundle.vim)
+- [stow](https://www.gnu.org/software/stow/)
 
 ## Setup
 
 - Clone to `~/.dotfiles`
-- Run `~/.dotfiles/init.zsh`
-- Manually create the directory structure for non-top-level files and then link them over.
+- Install `stow`
+- `cd ~/.dotfiles` and then `stow` all the directories.
