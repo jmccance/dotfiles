@@ -13,6 +13,9 @@ jmccance.dotfiles
 
 ## Setup
 
-- Clone to `~/.dotfiles`
-- Install `stow`
-- `cd ~/.dotfiles` and then `stow` all the directories.
+```
+git checkout $REPO_URL ~/.dotfiles
+cd ~/.dotfiles
+git submodule update --init --recursive
+stow git scala tmux vim zsh
+```
