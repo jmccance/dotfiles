@@ -5,11 +5,14 @@ jmccance.dotfiles
 
 - zsh
 - [powerline](https://github.com/powerline/powerline)
+- [stow](https://www.gnu.org/software/stow/)
+
+## Supported Tooling
+
+- [sdkman](http://sdkman.io/)
 - tmux
   - [tpm](https://github.com/tmux-plugins/tpm)
 - vim
-  - [Vundle](https://github.com/VundleVim/Vundle.vim)
-- [stow](https://www.gnu.org/software/stow/)
 
 ## Setup
 
