@@ -14,14 +14,15 @@ filetype off                  " required
   Plugin 'tpope/vim-sensible'
 
   " UI
+  Plugin 'Xuyuanp/nerdtree-git-plugin'
   Plugin 'airblade/vim-gitgutter'
   Plugin 'ctrlpvim/ctrlp.vim'
   Plugin 'scrooloose/nerdtree'
-  Plugin 'Xuyuanp/nerdtree-git-plugin'
 
   " Syntax
-  Plugin 'plasticboy/vim-markdown'
   Plugin 'hashivim/vim-terraform'
+  Plugin 'leafgarland/typescript-vim'
+  Plugin 'plasticboy/vim-markdown'
   Plugin 'w0rp/ale'
 
   Plugin 'Shougo/vimproc'
