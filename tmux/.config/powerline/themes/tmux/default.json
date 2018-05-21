@@ -1,4 +1,14 @@
 {
+  "dividers": {
+    "left": {
+      "hard": "\ue0b4 ",
+      "soft": "\ue0b5 "
+    },
+    "right": {
+      "hard": " \ue0b6",
+      "soft": " \ue0b7"
+    }
+  },
   "segments": {
     "right": [
       {
