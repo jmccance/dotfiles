@@ -23,6 +23,7 @@ filetype off                  " required
   Plugin 'hashivim/vim-terraform'
   Plugin 'leafgarland/typescript-vim'
   Plugin 'plasticboy/vim-markdown'
+  Plugin 'purescript-contrib/purescript-vim'
   Plugin 'w0rp/ale'
 
   Plugin 'Shougo/vimproc'
