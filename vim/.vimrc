@@ -24,6 +24,7 @@ filetype off                  " required
   Plugin 'leafgarland/typescript-vim'
   Plugin 'plasticboy/vim-markdown'
   Plugin 'purescript-contrib/purescript-vim'
+  Plugin 'taskpaper.vim'
   Plugin 'w0rp/ale'
 
   Plugin 'Shougo/vimproc'
