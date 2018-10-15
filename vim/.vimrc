@@ -17,6 +17,7 @@ filetype off                  " required
   Plugin 'Xuyuanp/nerdtree-git-plugin'
   Plugin 'airblade/vim-gitgutter'
   Plugin 'ctrlpvim/ctrlp.vim'
+  Plugin 'nathanaelkane/vim-indent-guides'
   Plugin 'scrooloose/nerdtree'
 
   " Syntax
@@ -26,16 +27,12 @@ filetype off                  " required
   Plugin 'purescript-contrib/purescript-vim'
   Plugin 'taskpaper.vim'
   Plugin 'w0rp/ale'
+  Plugin 'fatih/vim-go'
 
   Plugin 'Shougo/vimproc'
 
   " Haskell
   Plugin 'eagletmt/ghcmod-vim'
-
-  Plugin 'autozimu/LanguageClient-neovim', {
-    \ 'branch': 'next',
-    \ 'do': 'bash install.sh',
-    \ }
 
   "Plugin 'roxma/nvim-completion-manager'
 
