@@ -1,6 +1,7 @@
 [user]
 	name = Joel McCance
-	email = jmccance@gmail.com
+	email = joel@spothero.com
+	signingkey = 51E691EC
 [core]
 	editor = vim
 [credential]
@@ -9,3 +10,5 @@
 	autosquash = true
 [push]
 	default = current
+[commit]
+	gpgsign = true
