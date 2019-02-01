@@ -1,7 +1,7 @@
 [user]
 	name = Joel McCance
-	email = jmccance@gmail.com
-	signingkey = 3AA0C21A2BBAEDF7
+	email = joel@spothero.com
+	signingkey = 51E691EC
 [core]
 	editor = vim
 [credential]
