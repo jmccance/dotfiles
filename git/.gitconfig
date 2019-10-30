@@ -1,7 +1,7 @@
 [user]
 	name = Joel McCance
-	email = joel@spothero.com
-	signingkey = 51E691EC
+	email = joel@kettle.ai
+	signingkey = 446093693FFC6469
 [core]
 	editor = vim
 [credential]
