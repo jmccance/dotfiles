@@ -1,4 +1,8 @@
 *~
 
+tmux/.config/configstore
+tmux/.config/gcloud
+tmux/.config/hub
+
 !scala/.sbt/1.0/plugins/plugins.sbt
 scala/.sbt/*
