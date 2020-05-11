@@ -1,9 +1,10 @@
 [user]
 	name = Joel McCance
-	email = joel@kettle.ai
-	signingkey = 446093693FFC6469
+	email = jmccance@users.noreply.github.com
+	signingkey = FF7D701B908C9A34
 [core]
-	editor = vim
+        editor       = vim
+        excludesfile = ~/.config/git/ignore
 [credential]
 	helper = osxkeychain
 [rebase]
