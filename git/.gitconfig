@@ -1,15 +1,15 @@
 [user]
-	name = Joel McCance
-	email = jmccance@users.noreply.github.com
-	signingkey = FF7D701B908C9A34
+  name = Joel McCance
+  email = jmccance@users.noreply.github.com
+  signingkey = 28364A42729D90F3
 [core]
-        editor       = vim
-        excludesfile = ~/.config/git/ignore
+  editor = vim
+  excludesfile = ~/.config/git/ignore
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 [rebase]
-	autosquash = true
+  autosquash = true
 [push]
-	default = current
+  default = current
 [commit]
-	gpgsign = true
+  gpgsign = true
