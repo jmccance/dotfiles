@@ -19,6 +19,5 @@ jmccance.dotfiles
 ```
 git checkout $REPO_URL ~/.dotfiles
 cd ~/.dotfiles
-git submodule update --init --recursive
-stow git scala tmux vim zsh
+./init.sh
 ```
