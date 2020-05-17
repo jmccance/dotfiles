@@ -1,6 +1,7 @@
 *~
 
 tmux/.config/configstore
+tmux/.config/direnv
 tmux/.config/gcloud
 tmux/.config/hub
 
