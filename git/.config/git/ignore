@@ -2,3 +2,8 @@
 .envrc
 .idea
 .vscode/
+
+# JetBrains
+.generators
+.idea
+.rakeTasks
