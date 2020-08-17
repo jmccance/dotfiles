@@ -1,10 +1,13 @@
 *~
 
-!git/.gnupg/gpg-agent.conf
+nvim/.config/*
+!nvim/.config/nvim
+
 git/.gnupg/*
+!git/.gnupg/gpg-agent.conf
 
-!tmux/.config/powerline
 tmux/.config/*
+!tmux/.config/powerline
 
-!scala/.sbt/1.0/plugins/plugins.sbt
 scala/.sbt/*
+!scala/.sbt/1.0/plugins/plugins.sbt

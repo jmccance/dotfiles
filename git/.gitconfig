@@ -5,6 +5,7 @@
 [core]
   editor = vim
   excludesfile = ~/.config/git/ignore
+	pager = diff-so-fancy | less --tabs=4 -RFX
 [credential]
   helper = osxkeychain
 [rebase]
@@ -13,3 +14,8 @@
   default = current
 [commit]
   gpgsign = true
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process

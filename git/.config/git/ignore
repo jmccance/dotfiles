@@ -7,3 +7,6 @@
 .generators
 .idea
 .rakeTasks
+
+# Ruby
+.irb_history
