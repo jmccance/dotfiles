@@ -3,10 +3,13 @@
 
   " Features
   Plug 'ctrlpvim/ctrlp.vim'
+  Plug 'preservim/nerdcommenter'
+  Plug 'tpope/vim-fugitive'
+  Plug 'vim-airline/vim-airline'
+  Plug 'airblade/vim-gitgutter'
+
   Plug 'preservim/nerdtree'
   Plug 'Xuyuanp/nerdtree-git-plugin'
-  Plug 'vim-airline/vim-airline'
-  Plug 'preservim/nerdcommenter'
 
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
