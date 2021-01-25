@@ -12,39 +12,39 @@
   "segments": {
     "right": [
       {
-	"function": "powerline_kubernetes.kubernetes",
-	"priority": 50,
-	"args": {
-	  "show_kube_logo": true, 
-	  "show_cluster": true, 
-	  "show_namespace": false, 
-	  "show_default_namespace": false, 
-	  "alerts": [
+        "function": "powerline_kubernetes.kubernetes",
+        "priority": 50,
+        "args": {
+          "show_kube_logo": true, 
+          "show_cluster": true, 
+          "show_namespace": false, 
+          "show_default_namespace": false, 
+          "alerts": [
             "prod"
-	  ]
-	}
+          ]
+        }
       },
       {
-	"function": "powerlinemem.mem_usage.mem_usage",
-	"priority": 50
+        "function": "powerlinemem.mem_usage.mem_usage",
+        "priority": 50
       },
       {
-	"function": "powerline.segments.common.sys.system_load",
-	"priority": 50
+        "function": "powerline.segments.common.sys.system_load",
+        "priority": 50
       },
       {
-	"function": "powerline.segments.common.bat.battery",
-	"priority": 50
+        "function": "powerline.segments.common.bat.battery",
+        "priority": 50
       },
       {
-	"function": "powerline.segments.common.time.date",
-	"name": "time",
-	"args": {
-	  "format": "%FT%H:%M"
-	}
+        "function": "powerline.segments.common.time.date",
+        "name": "time",
+        "args": {
+          "format": "%FT%H:%M (%s)"
+        }
       },
       {
-	"function": "powerline.segments.common.net.external_ip"
+        "function": "powerline.segments.common.net.external_ip"
       }
     ]
   }
