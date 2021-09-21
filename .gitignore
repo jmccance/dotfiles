@@ -1,7 +1,7 @@
 *~
 
 nvim/.config/*
-!nvim/.config/nvim
+!nvim/.config/nvim/init.vim
 
 git/.gnupg/*
 !git/.gnupg/gpg-agent.conf

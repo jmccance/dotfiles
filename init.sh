@@ -12,12 +12,14 @@ echo "Installing things with brew..."
 
 brew install \
   bat \
+  diff-so-fancy \
   direnv \
   gnupg \
   httpie \
   hub \
   jq \
   lazydocker \
+  neovim \
   stow \
   the_silver_searcher \
   tldr \
@@ -25,7 +27,7 @@ brew install \
 
 echo "Installing config files..."
 
-stow git scala tmux vim zsh
+stow git nvim scala tmux zsh
 
 echo "Installing Powerline..."
 
@@ -35,9 +37,10 @@ echo "Installing tpm..."
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-echo "Installing Vundle..."
+echo "Installing plug..."
 
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 echo "Done! Hope it worked!"
 
