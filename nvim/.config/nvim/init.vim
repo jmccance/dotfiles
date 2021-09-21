@@ -11,10 +11,10 @@
   Plug 'preservim/nerdtree'
   Plug 'Xuyuanp/nerdtree-git-plugin'
 
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
+  " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  " Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
   " Plug 'neoclide/coc-solargraph', {'do': 'yarn install --frozen-lockfile'}
-  Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
+  " Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 
   " Syntax
   Plug 'gurpreetatwal/vim-avro'
