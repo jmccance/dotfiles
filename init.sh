@@ -12,12 +12,18 @@ echo "Installing things with brew..."
 
 brew install \
   bat \
+  cloc \
   diff-so-fancy \
   direnv \
+  exa \
+  fd \
+  fzf \
   gnupg \
   httpie \
   hub \
   jq \
+  jwt-cli \
+  k9s \
   lazydocker \
   neovim \
   stow \
