@@ -2,18 +2,41 @@
   name = Joel McCance
   email = jmccance@users.noreply.github.com
   signingkey = FF7D701B908C9A34
+
 [core]
   editor = vim
   excludesfile = ~/.config/git/ignore
-  pager = diff-so-fancy | less --tabs=4 -RFX
-[credential]
-  helper = osxkeychain
-[rebase]
-  autosquash = true
-[push]
-  default = current
+  pager = delta
+
 [commit]
   gpgsign = true
+
+[credential]
+  helper = osxkeychain
+
+[delta]
+  light = false
+  line-numbers = true
+  navigate = true
+
+[diff]
+  colorMoved = default
+
+[interactive]
+  diffFilter = delta --color-only
+
+[merge]
+  conflictStyle = diff3
+
+[push]
+  default = current
+
+[rebase]
+  autosquash = true
+
+[rerere]
+  enabled = true
+
 [filter "lfs"]
   required = true
   clean = git-lfs clean -- %f

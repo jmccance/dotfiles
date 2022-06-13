@@ -13,7 +13,7 @@ echo "Installing things with brew..."
 brew install \
   bat \
   cloc \
-  diff-so-fancy \
+  delta \
   direnv \
   exa \
   fd \
