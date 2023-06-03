@@ -29,6 +29,12 @@ brew "tmux"
 tap "adevinta/zoe"
 brew "zoe"
 
+# Casks
+
+cask "arc"
+cask "raycast"
+cask "visual-studio-code"
+
 tap "homebrew/cask-fonts"
 cask "font-fira-code-nerd-font"
 
