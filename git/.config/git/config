@@ -1,15 +1,10 @@
-[user]
-  name = Joel McCance
-  email = jmccance@users.noreply.github.com
-  signingkey = FF7D701B908C9A34
-
-[core]
-  editor = vim
-  excludesfile = ~/.config/git/ignore
-  pager = delta
-
 [commit]
   gpgsign = false
+
+[core]
+  editor = nvim
+  excludesfile = ~/.config/git/ignore
+  pager = delta
 
 [credential]
   helper = osxkeychain
@@ -22,8 +17,17 @@
 [diff]
   colorMoved = default
 
+[filter "lfs"]
+  required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+
 [interactive]
   diffFilter = delta --color-only
+
+[hub]
+	protocol = ssh
 
 [merge]
   conflictStyle = diff3
@@ -37,10 +41,7 @@
 [rerere]
   enabled = true
 
-[filter "lfs"]
-  required = true
-  clean = git-lfs clean -- %f
-  smudge = git-lfs smudge -- %f
-  process = git-lfs filter-process
-[hub]
-	protocol = ssh
+[user]
+  name = Joel McCance
+  email = jmccance@users.noreply.github.com
+  # signingkey = FIXME

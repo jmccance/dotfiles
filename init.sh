@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 echo "Fetching submodules..."
 
@@ -10,26 +10,7 @@ echo "Installing brew..."
 
 echo "Installing things with brew..."
 
-brew install \
-  bat \
-  cloc \
-  direnv \
-  exa \
-  fd \
-  fzf \
-  git-delta \
-  gnupg \
-  httpie \
-  hub \
-  jq \
-  jwt-cli \
-  k9s \
-  lazydocker \
-  neovim \
-  stow \
-  the_silver_searcher \
-  tldr \
-  tmux \
+brew bundle install
 
 echo "Installing config files..."
 
@@ -47,6 +28,10 @@ echo "Installing plug..."
 
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+echo "Installing fzf"
+
+$(brew --prefix fzf)/install --key-bindings --completion --no-update-rc
 
 echo "Done! Hope it worked!"
 

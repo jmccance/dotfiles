@@ -1,5 +1,7 @@
 *~
 
+Brewfile.lock.json
+
 nvim/.config/*
 !nvim/.config/nvim/init.vim
 
@@ -11,3 +13,5 @@ tmux/.config/*
 
 scala/.sbt/*
 !scala/.sbt/1.0/plugins/plugins.sbt
+
+
