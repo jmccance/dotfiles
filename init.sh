@@ -14,7 +14,7 @@ brew bundle install
 
 echo "Installing config files..."
 
-stow git iterm2 nvim scala ssh tmux zsh
+stow git iterm2 nvim scala ssh ssh tmux zsh
 
 echo "Installing Powerline..."
 
