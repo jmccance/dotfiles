@@ -9,7 +9,7 @@
   pager = delta
 
 [commit]
-  gpgsign = true
+  gpgsign = false
 
 [credential]
   helper = osxkeychain
@@ -42,3 +42,5 @@
   clean = git-lfs clean -- %f
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
+[hub]
+	protocol = ssh

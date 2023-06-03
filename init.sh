@@ -13,11 +13,11 @@ echo "Installing things with brew..."
 brew install \
   bat \
   cloc \
-  delta \
   direnv \
   exa \
   fd \
   fzf \
+  git-delta \
   gnupg \
   httpie \
   hub \
