@@ -14,7 +14,7 @@ brew bundle install
 
 echo "Installing config files..."
 
-stow git nvim scala tmux zsh
+stow git nvim scala ssh tmux zsh
 
 echo "Installing Powerline..."
 
@@ -28,6 +28,8 @@ echo "Installing plug..."
 
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+neovim +PlugInstall +qa
 
 echo "Installing fzf"
 

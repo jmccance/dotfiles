@@ -30,6 +30,12 @@ brew "zoe"
 tap "jdxcode/tap"
 brew "rtx"
 
+# Casks
+
+cask "arc"
+cask "raycast"
+cask "visual-studio-code"
+
 tap "homebrew/cask-fonts"
 cask "font-fira-code-nerd-font"
 
