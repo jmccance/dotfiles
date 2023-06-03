@@ -1,5 +1,5 @@
 [commit]
-  gpgsign = false
+  gpgsign = true
 
 [core]
   editor = nvim
@@ -44,4 +44,10 @@
 [user]
   name = Joel McCance
   email = jmccance@users.noreply.github.com
-  # signingkey = FIXME
+  signingkey = FIXME
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
