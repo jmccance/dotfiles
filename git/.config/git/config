@@ -44,7 +44,7 @@
 [user]
   name = Joel McCance
   email = jmccance@users.noreply.github.com
-  signingkey = FIXME
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDf3/KFEJi6JI2vLoYIcD7EXodQTiohKqowM0PkWq6pQ
 
 [gpg]
   format = ssh
