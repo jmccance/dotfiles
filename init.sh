@@ -14,7 +14,7 @@ brew bundle install
 
 echo "Installing config files..."
 
-stow git nvim scala tmux zsh
+stow git iterm2 nvim scala tmux zsh
 
 echo "Installing Powerline..."
 
@@ -37,5 +37,6 @@ echo "Done! Hope it worked!"
 
 echo "== Next steps =="
 echo
-echo "1) Open vim and run :PluginInstall to install plugins"
-echo "2) Open tmux and hit C-Space-I to install plugins"
+echo "1) Create ~/.zlocal and set PYTHON_HOME"
+echo "2) Open vim and run :PluginInstall to install plugins"
+echo "3) Open tmux and hit C-Space-I to install plugins"

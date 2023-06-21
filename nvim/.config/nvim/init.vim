@@ -20,7 +20,6 @@
   Plug 'gurpreetatwal/vim-avro'
   Plug 'jparise/vim-graphql'
   Plug 'leafgarland/typescript-vim'
-  Plug 'lervag/wiki.vim'
   Plug 'pangloss/vim-javascript'
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'udalov/kotlin-vim'
@@ -61,10 +60,6 @@
 
   " Close vim when the last open window is NERDTree
   autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-" }}}
-
-" wiki.vim {{{
-  let g:wiki_root = "~/Documents/wiki"
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0
