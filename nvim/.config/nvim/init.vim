@@ -45,6 +45,8 @@
 
   set splitbelow
   set splitright
+
+  set rtp+=/opt/homebrew/opt/fzf
 " }}}
 
 " NERDCommenter {{{

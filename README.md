@@ -31,6 +31,7 @@ cd ~/.dotfiles
 - Keyboard Shortcuts… -> Modifier Keys
   - For each keyboard, map "Caps Lock" to "Escape"
 - Enable "Keyboard navigation" to allow for tabbing between controls
+- Search for "Spelling" and disable all the autocorrects
 
 ### iTerm 2
 
