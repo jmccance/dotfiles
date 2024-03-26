@@ -5,7 +5,7 @@ tap "homebrew/core"
 brew "bat"
 brew "cloc"
 brew "direnv"
-brew "exa"
+brew "eza"
 brew "fd"
 brew "fzf"
 brew "gh"
@@ -28,9 +28,6 @@ brew "tmux"
 
 tap "adevinta/zoe"
 brew "zoe"
-
-tap "jdxcode/tap"
-brew "rtx"
 
 tap "homebrew/cask-fonts"
 cask "font-fira-code-nerd-font"
