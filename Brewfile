@@ -1,11 +1,10 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 
+brew "ast-grep"
 brew "bat"
 brew "cloc"
 brew "direnv"
-brew "exa"
+brew "eza"
 brew "fd"
 brew "fzf"
 brew "gh"
@@ -17,8 +16,11 @@ brew "hub"
 brew "jq"
 brew "k9s"
 brew "lazydocker"
+brew "lazygit"
+brew "luarocks"
 brew "mas"
 brew "mise"
+brew "ripgrep"
 brew "neovim"
 brew "starship"
 brew "stow"
@@ -28,9 +30,6 @@ brew "tmux"
 
 tap "adevinta/zoe"
 brew "zoe"
-
-tap "jdxcode/tap"
-brew "rtx"
 
 # Casks
 
